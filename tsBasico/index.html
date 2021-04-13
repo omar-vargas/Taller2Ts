@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Taller 1</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Omar Esteban Vargas </h1>
+                <img src="./avatar.jpeg" height="300px" width="300px alt="Avatar">
+                <div class="card"  style="widows: 20rem; ;">
+                <div class= "card-header">
+                <h3>Datos Personales</h3>
+                </div>
+                <table class="list-group list-group-flush">
+                    <thead>
+                        <tr>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody  id="students" >
+                       
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        
+           
+
+            <div class="col">
+                <div class="card"  style="width:25rem ;">
+                <div class= "card-header">
+                   
+                     <form style="margin:10px;">
+                    <div class="form-row">
+                      <div class="col">
+                          <input type="text" class="form-control" id="search-box" placeholder="Filtrar por nombre">
+                      </div>
+
+
+                      <div class="col">
+                          <button type="button" id="button-filterByName" class="btn btn-success">Aplicar</button>
+                      </div>
+                    </div>
+                </form>
+
+                <h2>Cursos Actuales</h2>
+                </div>
+          
+                <table class="table">
+                    <thead class="thead-dark">
+                       <tr>
+                          <th>Curso</th>
+                          <th>Profesor</th>
+                          <th>Créditos</th>
+                       </tr>
+                    </thead>
+                    <tbody id="courses">
+                    </tbody>
+                   
+                </table>
+                <h1> 
+                    TOTAL DE CREDITOS
+                </h1>
+                <h1 id="total-credits"> 
+                </h1>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <body>
+        ...
+        <script type="module" src="./scripts/course.js" ></script>
+        <script type="module" src="./scripts/dataCourse.js" ></script>
+        <script type="module" src="./scripts/main.js"></script>
+        <script type="module" src="./scripts/student.js"></script>
+        <script type="module" src="./scripts/dataStudent.js"></script>
+    </body>
+</html>
+
+</body>
+</html>
